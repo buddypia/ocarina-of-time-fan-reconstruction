@@ -1,0 +1,29 @@
+{
+  "kakariko":{
+    "name":"KAKARIKO VILLAGE",
+    "arrival":"Under the mountain, carpenters mend beams and a windmill turns over the well. The mountain guard watches the northern gate.",
+    "exits":[{"to":"field","at":[0,0,25],"label":"Hyrule Field"},{"to":"trail","at":[0,0,-25.5],"label":"Death Mountain Trail"}],
+    "people":[
+      {"id":"mountain_guard","name":"Mountain Guard","at":[2.5,0,-21],"style":"guard","lines":["The mountain has been restless."]},
+      {"id":"cucco_lady","name":"Anju","at":[-7,0,19],"style":"elder","lines":["My cuccos have wandered away."]},
+      {"id":"carpenter","name":"Carpenter","at":[9,0,5],"style":"worker","lines":["Impa opened this village to all sorts of people. Stoneworkers, farm hands, wanderers — everyone can leave something better than they found it.","The Gorons used to bring good stone down the mountain. We haven't seen a cart from their quarry in days."]},
+      {"id":"windmill_keeper","name":"Windmill Keeper","at":[-12,0,-14],"style":"worker","lines":["Listen to the wooden arms creak. A steady wind and a patient wheel can keep a whole village supplied with water.","There is an old song in the rhythm, but I can't remember how it goes. Perhaps one day someone will remind me."]}
+    ]
+  },
+  "trail":{
+    "name":"DEATH MOUNTAIN TRAIL",
+    "arrival":"The road climbs in three bends. A cracked boulder closes the quarry on the first ledge; warm light marks Goron City at the top.",
+    "exits":[{"to":"kakariko","at":[0,0,28],"label":"Kakariko Village"},{"to":"goron","at":[0,9,-24],"label":"Goron City"},{"to":"dodongo","at":[-12,3,2],"label":"Dodongo's Cavern"}],
+    "people":[{"id":"trail_goron","name":"Hungry Goron","at":[2,3,7],"style":"goron","lines":["We eat the good rocks from the quarry. A stranger sealed the entrance, and the beasts inside chased us away. Darunia hasn't smiled since.","A Bomb Flower could break that cracked rock. But those buds are heavy — ask our chief about the Goron's Bracelet."]}]
+  },
+  "goron":{
+    "name":"GORON CITY",
+    "arrival":"Rooms have been carved into the warm stone around a communal fire. Darunia's chamber lies behind the royal crest at the north end.",
+    "exits":[{"to":"trail","at":[0,0,24],"label":"Death Mountain Trail"}],
+    "people":[
+      {"id":"darunia","name":"Darunia","at":[0,0,-21],"style":"darunia","lines":["My people need their quarry."]},
+      {"id":"goron_elder","name":"Goron Elder","at":[-6,0,9],"style":"goron","lines":["Our chief is waiting for a messenger from the royal family. Play the royal melody at the crest; he will know you came in good faith.","Darunia carries everyone's hunger on his shoulders. When he was young, a song from the forest could always make him dance."]},
+      {"id":"goron_smith","name":"Goron Smith","at":[7,0,-5],"style":"goron","lines":["Metal remembers the heat that shaped it. Our bracelets let a small hand lift a heavy Bomb Flower, but they won't slow a burning fuse.","C throws a lit bomb. E sets it down. Pick your place before lighting the fuse — then give the mountain room to answer."]}
+    ]
+  }
+}

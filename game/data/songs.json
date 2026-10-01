@@ -1,0 +1,112 @@
+{
+  "lullaby": {
+    "name": "Zelda's Lullaby",
+    "notes": [
+      "left",
+      "up",
+      "right",
+      "left",
+      "up",
+      "right"
+    ],
+    "hint": "U I L U I L"
+  },
+  "epona": {
+    "name": "Epona's Song",
+    "notes": [
+      "up",
+      "left",
+      "right",
+      "up",
+      "left",
+      "right"
+    ],
+    "hint": "I U L I U L"
+  },
+  "saria": {
+    "name": "Saria's Song",
+    "notes": [
+      "down",
+      "right",
+      "left",
+      "down",
+      "right",
+      "left"
+    ],
+    "hint": "K L U K L U"
+  },
+  "sun": {
+    "name": "Sun's Song",
+    "notes": [
+      "right",
+      "down",
+      "up",
+      "right",
+      "down",
+      "up"
+    ],
+    "hint": "L K I L K I"
+  },
+  "time": {
+    "name": "Song of Time",
+    "notes": [
+      "right",
+      "a",
+      "down",
+      "right",
+      "a",
+      "down"
+    ],
+    "hint": "L J K L J K"
+  },
+  "storms": {
+    "name": "Song of Storms",
+    "notes": [
+      "a",
+      "down",
+      "up",
+      "a",
+      "down",
+      "up"
+    ],
+    "hint": "J K I J K I"
+  },
+  "minuet": {
+    "name": "Minuet of Forest",
+    "notes": [
+      "a",
+      "up",
+      "left",
+      "right",
+      "left",
+      "right"
+    ],
+    "hint": "J I U L U L"
+  },
+  "prelude": {
+    "name": "Prelude of Light",
+    "notes": [
+      "up",
+      "right",
+      "up",
+      "right",
+      "left",
+      "up"
+    ],
+    "hint": "I L I L U I"
+  },
+  "bolero": {
+    "name": "Bolero of Fire",
+    "notes": [
+      "down",
+      "a",
+      "down",
+      "a",
+      "right",
+      "down",
+      "right",
+      "down"
+    ],
+    "hint": "K J K J L K L K"
+  }
+}

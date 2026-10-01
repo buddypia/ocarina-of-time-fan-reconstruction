@@ -1,0 +1,249 @@
+[
+  {
+    "path": "rock_face_01/textures/rock_face_01_arm_2k.jpg",
+    "license": "CC0-1.0",
+    "author": "Dario Barresi / Poly Haven",
+    "source": "https://polyhaven.com/a/rock_face_01",
+    "size": 2592972,
+    "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/rock_face_01/rock_face_01_arm_2k.jpg",
+    "md5": "d0d379e42040bebf05dff3490143c67c",
+    "bytes": 2592972,
+    "sha256": "4738d73c0cd757971dcb32e52ba644b9e520173127108a342a3478a8586a805d"
+  },
+  {
+    "path": "rock_face_01/rock_face_01.bin",
+    "license": "CC0-1.0",
+    "author": "Dario Barresi / Poly Haven",
+    "source": "https://polyhaven.com/a/rock_face_01",
+    "size": 476436,
+    "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/rock_face_01/rock_face_01.bin",
+    "md5": "06caed23e725af568b64f8cbee210c1c",
+    "bytes": 476436,
+    "sha256": "873eac0319333e92bc96ddeedf8ebf69dc3c68ff1dfe32d8c14ddc165cdb20ac"
+  },
+  {
+    "path": "rock_face_01/textures/rock_face_01_nor_gl_2k.jpg",
+    "license": "CC0-1.0",
+    "author": "Dario Barresi / Poly Haven",
+    "source": "https://polyhaven.com/a/rock_face_01",
+    "size": 3970196,
+    "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/rock_face_01/rock_face_01_nor_gl_2k.jpg",
+    "md5": "94fcd3c45f5dbc5b62d9782f7f6f09ff",
+    "bytes": 3970196,
+    "sha256": "751749444a78cedbb0e1fcde38eb5cbb8ac30095fafec823c64f67fb7a04d8c6"
+  },
+  {
+    "path": "rock_face_01/textures/rock_face_01_diff_2k.jpg",
+    "license": "CC0-1.0",
+    "author": "Dario Barresi / Poly Haven",
+    "source": "https://polyhaven.com/a/rock_face_01",
+    "size": 3167302,
+    "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/rock_face_01/rock_face_01_diff_2k.jpg",
+    "md5": "40424b085d788e1a6c0abf274e3501d3",
+    "bytes": 3167302,
+    "sha256": "447525a84e88138bdaecd90d6a3dd957bd81031a8652fa1809c7a3af0033f465"
+  },
+  {
+    "path": "rock_face_01/rock_face_01.gltf",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/2k/rock_face_01/rock_face_01_2k.gltf",
+    "md5": "fdf18bc1f9c06a8d6448b3e50934d15f",
+    "license": "CC0-1.0",
+    "author": "Dario Barresi / Poly Haven",
+    "source": "https://polyhaven.com/a/rock_face_01",
+    "bytes": 2793,
+    "sha256": "5ab7fa969b57de507db72627d41f1b901e11ae406e52024b1c267c7c1caad40a"
+  },
+  {
+    "path": "evans-plunge-nps.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Caver_Karen_Rosga_sits_on_the_edge_of_Evans_Plunge%2C_one_of_Wind_Cave%27s_lakes._%28011d7b74-155d-4519-3ee0-6e6bec9911b8%29.jpg",
+    "license": "US government public domain; reference photograph only",
+    "author": "National Park Service",
+    "source": "https://npgallery.nps.gov/AssetDetail/011d7b74-155d-4519-3ee0-6e6bec9911b8",
+    "bytes": 4017647,
+    "sha256": "0092512c789675bd0a63b29aa13cdfa686bb67c304229983d9f566e33448e760"
+  },
+  {
+    "path": "rocky_terrain_02/diff.jpg",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/rocky_terrain_02/rocky_terrain_02_diff_2k.jpg",
+    "source": "https://polyhaven.com/a/rocky_terrain_02",
+    "license": "CC0-1.0",
+    "bytes": 3232826,
+    "sha256": "9b042fe0618ffbc3650592456d7d8d265ba9a1cb5ce802f5f1d86b7ee79508a1"
+  },
+  {
+    "path": "rocky_terrain_02/nor_gl.jpg",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/rocky_terrain_02/rocky_terrain_02_nor_gl_2k.jpg",
+    "source": "https://polyhaven.com/a/rocky_terrain_02",
+    "license": "CC0-1.0",
+    "bytes": 4149208,
+    "sha256": "556ed903180a9431b253fc1c334c769dc4615c5c0f4ef1cedf20533ae8409ce8"
+  },
+  {
+    "path": "rocky_terrain_02/arm.jpg",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/rocky_terrain_02/rocky_terrain_02_arm_2k.jpg",
+    "source": "https://polyhaven.com/a/rocky_terrain_02",
+    "license": "CC0-1.0",
+    "bytes": 1960945,
+    "sha256": "8d658c2836ca4b8e436b29cc4b909ac273289f689cd064c459d7e9ae0d554789"
+  },
+  {
+    "path": "cobblestone_floor_08/diff.jpg",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/cobblestone_floor_08/cobblestone_floor_08_diff_2k.jpg",
+    "source": "https://polyhaven.com/a/cobblestone_floor_08",
+    "license": "CC0-1.0",
+    "bytes": 2289909,
+    "sha256": "9aaf7db7f660f03d0c5c129c11e83caa828fb8bca63f8cd5154d450ffc4c340f"
+  },
+  {
+    "path": "cobblestone_floor_08/nor_gl.jpg",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/cobblestone_floor_08/cobblestone_floor_08_nor_gl_2k.jpg",
+    "source": "https://polyhaven.com/a/cobblestone_floor_08",
+    "license": "CC0-1.0",
+    "bytes": 3948187,
+    "sha256": "42dd5fc2da4a858f9c076c9ac5002857a1c064f8f4c4ffb12fafecffb84e96cc"
+  },
+  {
+    "path": "cobblestone_floor_08/arm.jpg",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/cobblestone_floor_08/cobblestone_floor_08_arm_2k.jpg",
+    "source": "https://polyhaven.com/a/cobblestone_floor_08",
+    "license": "CC0-1.0",
+    "bytes": 805558,
+    "sha256": "c963cb6e73960e0a0562a2650d13fc6a259ef57e85945ed3b47d502697df4c03"
+  },
+  {
+    "path": "slab_tiles/diff.jpg",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/slab_tiles/slab_tiles_diff_2k.jpg",
+    "source": "https://polyhaven.com/a/slab_tiles",
+    "license": "CC0-1.0",
+    "bytes": 1982779,
+    "sha256": "4d783b04cbe612f292871cd98514e9d13db1892cb0378e65aeefddff47524d1e"
+  },
+  {
+    "path": "slab_tiles/nor_gl.jpg",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/slab_tiles/slab_tiles_nor_gl_2k.jpg",
+    "source": "https://polyhaven.com/a/slab_tiles",
+    "license": "CC0-1.0",
+    "bytes": 2411980,
+    "sha256": "69764ef7c91f12508930112356dd8e5edc4bed8f50e07aa9a4322af6807bc62c"
+  },
+  {
+    "path": "slab_tiles/arm.jpg",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/slab_tiles/slab_tiles_arm_2k.jpg",
+    "source": "https://polyhaven.com/a/slab_tiles",
+    "license": "CC0-1.0",
+    "bytes": 3361882,
+    "sha256": "f99d11a392cd8efedb3aaec52b48f8ac0466a1e8b91c196b162e7672bef58de8"
+  },
+  {
+    "path": "medieval_blocks_05/diff.jpg",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/medieval_blocks_05/medieval_blocks_05_diff_2k.jpg",
+    "source": "https://polyhaven.com/a/medieval_blocks_05",
+    "license": "CC0-1.0",
+    "bytes": 2461352,
+    "sha256": "50e63a7fbf6fe0440a7707ea32b7c34528c235906a8e20060027bc24fb94d965"
+  },
+  {
+    "path": "medieval_blocks_05/nor_gl.jpg",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/medieval_blocks_05/medieval_blocks_05_nor_gl_2k.jpg",
+    "source": "https://polyhaven.com/a/medieval_blocks_05",
+    "license": "CC0-1.0",
+    "bytes": 3890074,
+    "sha256": "091b012685ff753b63d3f2d06ee086ececd670172f1e655cc2f3b1578d142428"
+  },
+  {
+    "path": "medieval_blocks_05/arm.jpg",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/medieval_blocks_05/medieval_blocks_05_arm_2k.jpg",
+    "source": "https://polyhaven.com/a/medieval_blocks_05",
+    "license": "CC0-1.0",
+    "bytes": 667549,
+    "sha256": "c3378a3f55828a2a182dc158df0185f6b37aab5423b46883ef5f9dea9515129e"
+  },
+  {
+    "path": "makehuman-base.obj",
+    "url": "https://raw.githubusercontent.com/makehumancommunity/makehuman/a8bc2d54ff0ac92e78ff71431b1023eda42bf482/makehuman/data/3dobjs/base.obj",
+    "source": "https://github.com/makehumancommunity/makehuman/blob/a8bc2d54ff0ac92e78ff71431b1023eda42bf482/makehuman/data/3dobjs/base.obj",
+    "license": "CC0-1.0 (graphical asset data); license document separately describes AGPL program code",
+    "bytes": 1749303,
+    "sha256": "8e761e6624b8f54536409135d1636da63b32486a90d4897f84e121d144f6fb4c"
+  },
+  {
+    "path": "caucasian-male-child.target",
+    "url": "https://raw.githubusercontent.com/makehumancommunity/makehuman/a8bc2d54ff0ac92e78ff71431b1023eda42bf482/makehuman/data/targets/macrodetails/caucasian-male-child.target",
+    "source": "https://github.com/makehumancommunity/makehuman/blob/a8bc2d54ff0ac92e78ff71431b1023eda42bf482/makehuman/data/targets/macrodetails/caucasian-male-child.target",
+    "license": "CC0-1.0 (graphical asset data); license document separately describes AGPL program code",
+    "bytes": 441028,
+    "sha256": "401b9b0349c88dc7aacb81e71f67daf747fecde0f7fd7f3f6e10fb2ce5586d1e"
+  },
+  {
+    "path": "universal-male-child-averagemuscle-averageweight.target",
+    "url": "https://raw.githubusercontent.com/makehumancommunity/makehuman/a8bc2d54ff0ac92e78ff71431b1023eda42bf482/makehuman/data/targets/macrodetails/universal-male-child-averagemuscle-averageweight.target",
+    "source": "https://github.com/makehumancommunity/makehuman/blob/a8bc2d54ff0ac92e78ff71431b1023eda42bf482/makehuman/data/targets/macrodetails/universal-male-child-averagemuscle-averageweight.target",
+    "license": "CC0-1.0 (graphical asset data); license document separately describes AGPL program code",
+    "bytes": 604,
+    "sha256": "4ba5396ddabda448ece15650a566fbebfbb10239256ccb201e8f883429e12249"
+  },
+  {
+    "path": "makehuman-license.md",
+    "url": "https://raw.githubusercontent.com/makehumancommunity/makehuman/a8bc2d54ff0ac92e78ff71431b1023eda42bf482/LICENSE.md",
+    "source": "https://github.com/makehumancommunity/makehuman/blob/a8bc2d54ff0ac92e78ff71431b1023eda42bf482/LICENSE.md",
+    "license": "CC0-1.0 (graphical asset data); license document separately describes AGPL program code",
+    "bytes": 3598,
+    "sha256": "edd99571ca62698f78c943fd4fffb159a413c315fa0d4819d3cec5cadaf8b4f1"
+  },
+  {
+    "path": "default.mhskel",
+    "url": "https://raw.githubusercontent.com/makehumancommunity/makehuman/a8bc2d54ff0ac92e78ff71431b1023eda42bf482/makehuman/data/rigs/default.mhskel",
+    "source": "https://github.com/makehumancommunity/makehuman/blob/a8bc2d54ff0ac92e78ff71431b1023eda42bf482/makehuman/data/rigs/default.mhskel",
+    "license": "CC0-1.0 (graphical asset data); license document separately describes AGPL program code",
+    "bytes": 117790,
+    "sha256": "99f179bce0aa850b45d4191a1d0d234c5851f881c057439470ded3bddf729a24"
+  },
+  {
+    "path": "default_weights.mhw",
+    "url": "https://raw.githubusercontent.com/makehumancommunity/makehuman/a8bc2d54ff0ac92e78ff71431b1023eda42bf482/makehuman/data/rigs/default_weights.mhw",
+    "source": "https://github.com/makehumancommunity/makehuman/blob/a8bc2d54ff0ac92e78ff71431b1023eda42bf482/makehuman/data/rigs/default_weights.mhw",
+    "license": "CC0-1.0 (graphical asset data); license document separately describes AGPL program code",
+    "bytes": 897521,
+    "sha256": "0f3641d651ae3d00ad6b4ccee43142edb109d3bd909d27d9e4139ef1beed8625"
+  },
+  {
+    "path": "makehuman_system_assets_cc0.zip",
+    "url": "https://files.makehumancommunity.org/asset_packs/makehuman_system_assets/makehuman_system_assets_cc0.zip",
+    "source": "https://static.makehumancommunity.org/assets/assetpacks/makehuman_system_assets.html",
+    "license": "CC0-1.0",
+    "bytes": 280737770,
+    "sha256": "b542127a8e25547c7c29c19f2d1d2adb9a664c80396ecd694095dbc8028a0107"
+  },
+  {
+    "path": "met-443620.jpg",
+    "url": "https://images.metmuseum.org/CRDImages/is/web-large/DP17578.jpg",
+    "source": "https://www.metmuseum.org/art/collection/search/443620",
+    "license": "Public domain, Met Open Access; reference only",
+    "bytes": 33564,
+    "sha256": "ac0b83f1b4d808ba7f1377e2a24ff5f63d6fc252c1eb35bd21c1c55f26a1b040"
+  },
+  {
+    "path": "met-98235.jpg",
+    "url": "https://images.metmuseum.org/CRDImages/ci/web-large/13.49.37ab_F.jpg",
+    "source": "https://www.metmuseum.org/art/collection/search/98235",
+    "license": "Public domain, Met Open Access; reference only",
+    "bytes": 32748,
+    "sha256": "699160ff4779219596fc9f3bd3e71e0345ebb8c2f41f244e5d33a1342ce4afbc"
+  },
+  {
+    "path": "caucasian-male-young.target",
+    "url": "https://raw.githubusercontent.com/makehumancommunity/makehuman/a8bc2d54ff0ac92e78ff71431b1023eda42bf482/makehuman/data/targets/macrodetails/caucasian-male-young.target",
+    "source": "https://github.com/makehumancommunity/makehuman/blob/a8bc2d54ff0ac92e78ff71431b1023eda42bf482/makehuman/data/targets/macrodetails/caucasian-male-young.target",
+    "license": "CC0-1.0 (graphical asset data)",
+    "bytes": 396479,
+    "sha256": "70e228ba7164737dae664454394536fc5935fa48d333c1a97d77e2dc6eacc5f5"
+  },
+  {
+    "path": "universal-male-young-averagemuscle-averageweight.target",
+    "url": "https://raw.githubusercontent.com/makehumancommunity/makehuman/a8bc2d54ff0ac92e78ff71431b1023eda42bf482/makehuman/data/targets/macrodetails/universal-male-young-averagemuscle-averageweight.target",
+    "source": "https://github.com/makehumancommunity/makehuman/blob/a8bc2d54ff0ac92e78ff71431b1023eda42bf482/makehuman/data/targets/macrodetails/universal-male-young-averagemuscle-averageweight.target",
+    "license": "CC0-1.0 (graphical asset data)",
+    "bytes": 604,
+    "sha256": "4ba5396ddabda448ece15650a566fbebfbb10239256ccb201e8f883429e12249"
+  }
+]

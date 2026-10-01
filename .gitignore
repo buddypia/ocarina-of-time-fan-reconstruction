@@ -1,0 +1,81 @@
+# ==========================================
+# .gitignore for Ocarina of Time (Fan Reconstruction)
+# ==========================================
+
+# Operating System
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+
+# Large Builds & Distribution Artifacts (>100MB files prohibited on GitHub)
+# (Distribute builds via GitHub Releases or external mirrors)
+builds/
+*.app/
+*.pck
+*.zip
+*.tar.gz
+*.dmg
+*.exe
+*.so
+*.dylib
+
+# Local Saves & Runtime State
+runtime/authored-save.json
+runtime/*.json
+runtime/.*.lock
+runtime/.authored.lock
+runtime/mods/
+Ocarina Saves/
+user://
+
+# Evidence & Local Test Logs (contains local machine paths and large captures)
+evidence/
+production/logs/
+
+# Large Third-Party Reference Downloads (reproducible via fetch_reference_assets.py)
+production/reference-assets/*.zip
+production/downloads/
+
+# Godot Engine Cache & Imports
+.godot/
+game/.godot/
+*.translation
+
+# Blender Backups & Autosaves
+*.blend1
+*.blend2
+*.blend@
+
+# Python & Build Tools Cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# CMake & C++ Build Outputs (for vendor/Shipwright if built locally)
+vendor/Shipwright/build/
+vendor/Shipwright/_packages/
+vendor/Shipwright/*.o2r
+CMakeFiles/
+CMakeCache.txt
+Makefile
+cmake_install.cmake
+
+# Secrets & Environment Configurations
+.env
+.env.*
+*.pem
+*.key
+*.token
+credentials.json
+secrets.json
+
+# IDE & Editor Configurations
+.vscode/
+.idea/
+*.swp
+*~

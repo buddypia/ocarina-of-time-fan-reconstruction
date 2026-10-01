@@ -1,0 +1,22 @@
+{
+  "date": "2026-09-29",
+  "scope": "Photographic construction and surface references, not recovered game art",
+  "references": [
+    {
+      "file": "production/reference-assets/graveyard-20260929/cranequin.jpg",
+      "page": "https://www.metmuseum.org/art/collection/search/24926",
+      "url": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/24926/65901/main-image",
+      "sha256": "6d574feceb694d887eab851ae5005d5f6aab3dc1e9d03b81c60b2b1c0d4bdbae",
+      "bytes": 89274,
+      "note": "Public Domain marked on Met collection page. Reference only; authored gear uses no image pixels."
+    },
+    {
+      "file": "production/reference-assets/graveyard-20260929/headstone.jpg",
+      "page": "https://home.nps.gov/articles/000/preservation-matters-resetting-veteran-s-headstone.htm",
+      "url": "https://home.nps.gov/articles/000/images/Example-Union-Civil-War-to-Spanish-American-War-Stone_7920006_2.jpg?autorotate=false&maxwidth=650",
+      "sha256": "9f080f629a4b965a89f1c48c8913466178f8c2324602d389b1659ae6094ff073",
+      "bytes": 153959,
+      "note": "Jason Church, NPS. Reference-only photograph; not included in runtime textures."
+    }
+  ]
+}

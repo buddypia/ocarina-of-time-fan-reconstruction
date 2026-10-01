@@ -1,0 +1,29 @@
+{
+  "date": "2026-09-29",
+  "status": "authored reconstruction, visual work in progress",
+  "reference": {
+    "page": "https://www.english-heritage.org.uk/visit/places/rievaulx-abbey/",
+    "image_url": "https://www.english-heritage.org.uk/siteassets/home/visit/places-to-visit/rievaulx-abbey/gallery/galleryrievaulx.jpg?quality=85&w=1400",
+    "local_path": "production/reference-assets/forest-temple-20260929/rievaulx-arcade.jpg",
+    "sha256": "596b89c46fd51585a1f711ffe19d48a5d27ae82b14e297387ccbfa8b8b356757",
+    "usage": "Reference-only photographic observation; no redistribution license assumed and no runtime pixels used."
+  },
+  "observed_features": [
+    "clustered slender piers with distinct bases and capitals",
+    "recessed pointed stone arch orders",
+    "strong lateral light, deep arcade shadows and grass between masonry"
+  ],
+  "authored_files": {
+    "production/authored/forest-equipment/stalfos-study.blend": "f534fb1428ae1216ea11ee4b112727890ea4db4b2421e9f3d64eb067142155f3",
+    "production/authored/forest-equipment/bow-and-arrow.blend": "07f8299c326f09e4ae0f1619a21e9dc9ba153d5ebfe5e499e24cd166b8d1c672",
+    "production/authored/make_forest_equipment.py": "082735c8d0258cccfb0303cba71ee9c06c04f1bd9eaafc07851cc30bd8999e09",
+    "game/assets/forest/bark_diff.png": "98d24e3f75143c7bcb26b9a29ddc357a275b3c04545ad95dc0ac504b02c3c79b",
+    "game/assets/forest/bark_rough.png": "ecd1727a896f3af34cba6ddfd1bf79bad0f1458ee980b981141ddeaf7cb812eb",
+    "game/assets/forest/bark_nor_gl.png": "e71d40f5028803bbf3fd286ac5a89f0b9301ffb322edacd7afbad714d69c56e1",
+    "game/assets/fairy_bow.glb": "9191d6ab21310da787c0560887aa477937f6bbff111ce3589575d3e36ce6adc9",
+    "game/assets/arrow.glb": "5f0adb743473bfcfd5603cfe5c41191b55893bc333974d6e6c36a9882fe5239a",
+    "game/assets/stalfos.glb": "35027cf0429bf2e7bb9424e8f0d7cb41dc6467aa6ecd952549b1eecc8c23033a"
+  },
+  "upstream_dependency": "Stalfos study uses already credited adult armature and authored animations from adult-link-study/link-adult.blend; refer to THIRD_PARTY_ASSETS.md. Bark maps and bow/arrow geometry authored here. No extracted ROM assets.",
+  "revision_notes": "2026-09-29: completed intermediate arm/leg segments and vertebral/neck chain against the actual imported rig; moved ribs and pelvis to correct height; added shoulder girdle and sternum. Still a skeletal construction study, not a finished Stalfos/Moblin/Phantom model."
+}

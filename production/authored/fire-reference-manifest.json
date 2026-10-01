@@ -1,0 +1,71 @@
+{
+  "authorship": "Independently authored reconstruction. No original game data extracted. Character and scene quality remain incomplete.",
+  "generator": "blender --background --python production/authored/make_fire_assets.py",
+  "assets": [
+    {
+      "path": "production/authored/make_fire_assets.py",
+      "sha256": "796cee040c8300e3a1a0120337dc10ec23fcfc89eac35afda2b9f51ce28321c9",
+      "bytes": 7261
+    },
+    {
+      "path": "production/authored/fire-assets/goron-study.blend",
+      "sha256": "d82b65b02963dd17fb457489aa6c9a3cf738f364ca24a7068d923d393209476b",
+      "bytes": 3511322
+    },
+    {
+      "path": "game/assets/fire/crust_diff.png",
+      "sha256": "2e153ca73873e5cc5959d586064492a6aa1f5f6e24b3692b7158bfdca8916135",
+      "bytes": 1618929
+    },
+    {
+      "path": "game/assets/fire/crust_heat.png",
+      "sha256": "94a2439da5649e4db74b809aed2ef6ea3c3600905e977dc3c0849d95776596d6",
+      "bytes": 252401
+    },
+    {
+      "path": "game/assets/fire/crust_normal.png",
+      "sha256": "b31440697810ba6893744a1e54adb613ba119e5297774a8d2765406a7cc4b355",
+      "bytes": 2412777
+    },
+    {
+      "path": "game/assets/fire/crust_rough.png",
+      "sha256": "112c5dc2a7fb36badb59a3d8f3e1c2efaf36ae7e1bacf88cd480f698b7d6b8f2",
+      "bytes": 1340568
+    },
+    {
+      "path": "game/assets/fire/goron.glb",
+      "sha256": "ec5226b13b087b62b6d52178184d44d23c980a663fb255fc45669f2dea0947df",
+      "bytes": 5102044
+    }
+  ],
+  "appearance_reference": {
+    "page": "https://www.usgs.gov/media/images/kilauea-summit-eruption-halemaumau-crater-october-4-2021-5",
+    "author": "M. Patrick / USGS",
+    "date": "2021-10-04",
+    "usage": "Public Domain, reference only; not used as runtime texture",
+    "path": "production/reference-assets/fire-temple-20260929/kilauea-crust.jpg",
+    "sha256": "45e8b61c5f51bf783bfad0a9b3e540e72d4e909aa224efaee265215897f34390"
+  },
+  "observations": [
+    "Dark, silvery crust dominates the real photograph; incandescent cracks are narrow and uneven.",
+    "Wrinkled crust carries directional folds and thickness, without a uniform sine-wave pattern.",
+    "The current authored lava has excessive regular repetition and lacks the photograph's material variation; not accepted as photoreal."
+  ],
+  "progression_references": [
+    {
+      "path": "vendor/Shipwright/soh/soh/Enhancements/randomizer/location_access/dungeons/fire_temple.cpp",
+      "sha256": "59e34907a9811b338c8bf2cd557899bc646adb12e78ee79003240b34812f85e3",
+      "usage": "Vanilla logic consulted; authored layouts differ"
+    },
+    {
+      "path": "vendor/Shipwright/soh/soh/Enhancements/randomizer/location_access/overworld/goron_city.cpp",
+      "sha256": "aabecda1f010942c25003afe85786458dbe29d225595ff2eb3ffa98198327066",
+      "usage": "Vanilla logic consulted; authored layouts differ"
+    },
+    {
+      "path": "vendor/Shipwright/soh/soh/Enhancements/randomizer/location_access/overworld/death_mountain_crater.cpp",
+      "sha256": "6b8add30b859f014403523e88435db67b5586a277b30f9565457e2b63a26b4ab",
+      "usage": "Vanilla logic consulted; authored layouts differ"
+    }
+  ]
+}

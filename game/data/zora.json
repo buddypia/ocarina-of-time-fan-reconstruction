@@ -1,0 +1,215 @@
+{
+  "river": {
+    "name": "ZORA'S RIVER",
+    "arrival": "White water tumbles out of the mountain. Follow the banks and bridges to the royal crest beneath the great waterfall.",
+    "exits": [
+      {
+        "to": "field",
+        "at": [
+          -12,
+          0,
+          27
+        ],
+        "label": "Hyrule Field"
+      },
+      {
+        "to": "domain",
+        "at": [
+          0,
+          2,
+          -25
+        ],
+        "label": "Behind the waterfall"
+      }
+    ],
+    "people": [
+      {
+        "id": "river_merchant",
+        "name": "Bean Seller",
+        "at": [
+          -13,
+          0,
+          18
+        ],
+        "style": "worker",
+        "lines": [
+          "The Zoras hear the river differently from us. Their waterfall listens for a song from the royal family.",
+          "Cold water carries you downstream. Swim toward the sloping banks if you need a place to climb out."
+        ]
+      },
+      {
+        "id": "river_zora",
+        "name": "River Watcher",
+        "at": [
+          9,
+          0,
+          -6
+        ],
+        "style": "zora",
+        "lines": [
+          "Our princess is missing. King Zora has hardly left his throne. Follow the water home, traveler.",
+          "Water can hide a road as easily as stone. Look beneath the surface after earning a diver's scale."
+        ]
+      }
+    ]
+  },
+  "domain": {
+    "name": "ZORA'S DOMAIN",
+    "arrival": "Cool pools catch the light beneath a vaulted cavern. A diving master watches the water, while King Zora waits on the high northern throne.",
+    "exits": [
+      {
+        "to": "river",
+        "at": [
+          0,
+          0,
+          23
+        ],
+        "label": "Zora's River"
+      },
+      {
+        "to": "lake",
+        "at": [
+          7,
+          -4.6,
+          13.5
+        ],
+        "label": "Underwater passage to Lake Hylia"
+      },
+      {
+        "to": "fountain",
+        "at": [
+          0,
+          3,
+          -23
+        ],
+        "label": "Zora's Fountain"
+      }
+    ],
+    "people": [
+      {
+        "id": "diving_master",
+        "name": "Diving Master",
+        "at": [
+          -13,
+          3,
+          -0.5
+        ],
+        "style": "zora",
+        "lines": [
+          "A breath, a leap, and an eye for the glint below."
+        ]
+      },
+      {
+        "id": "king_zora",
+        "name": "King Zora",
+        "at": [
+          0,
+          3,
+          -20
+        ],
+        "style": "king_zora",
+        "lines": [
+          "My daughter Ruto has disappeared."
+        ]
+      },
+      {
+        "id": "zora_keeper",
+        "name": "Pool Keeper",
+        "at": [
+          12,
+          0,
+          8
+        ],
+        "style": "zora",
+        "lines": [
+          "Our diving master will teach you to reach deeper water. Collect all five blue rupees, then return to him for the Silver Scale.",
+          "The shallow spring beside me is full of fish. An empty bottle and a quick hand are all you need."
+        ]
+      }
+    ]
+  },
+  "lake": {
+    "name": "LAKE HYLIA",
+    "arrival": "The river opens into a wide basin ringed by wooded stone shores. The laboratory and fishing hut mark the banks. A bottle glints below, near an old submerged arch.",
+    "exits": [
+      {
+        "to": "field",
+        "at": [
+          0,
+          0,
+          33
+        ],
+        "label": "Hyrule Field"
+      },
+      {
+        "to": "domain",
+        "at": [
+          -7,
+          -4.6,
+          -13
+        ],
+        "label": "Underwater passage to Zora's Domain"
+      }
+    ],
+    "people": [
+      {
+        "id": "lake_scientist",
+        "name": "Lake Scientist",
+        "at": [
+          -27,
+          0,
+          10
+        ],
+        "style": "elder",
+        "lines": [
+          "I keep a record of the lake's rise and fall. Someone dropped a bottle near the tunnel in the northwestern shallows. It sank deeper than an ordinary diver can reach.",
+          "A Silver Scale is a promise from the Zoras: you have learned to trust your breath, and to return before it fails."
+        ]
+      },
+      {
+        "id": "fisher",
+        "name": "Fisherman",
+        "at": [
+          29,
+          0,
+          12
+        ],
+        "style": "worker",
+        "lines": [
+          "The large fish wait for patience, not noise. For now, the little fish near the Domain are easier to scoop into a bottle."
+        ]
+      }
+    ]
+  },
+  "fountain": {
+    "name": "ZORA'S FOUNTAIN",
+    "arrival": "An immense guardian rests in the sacred spring. His gills rise with each slow breath, but a sickly shiver passes along his back.",
+    "exits": [
+      {
+        "to": "domain",
+        "at": [
+          0,
+          0,
+          23
+        ],
+        "label": "Zora's Domain"
+      }
+    ],
+    "people": [
+      {
+        "id": "fountain_zora",
+        "name": "Shrine Keeper",
+        "at": [
+          8,
+          0,
+          20
+        ],
+        "style": "zora",
+        "lines": [
+          "Lord Jabu-Jabu has refused his food. Princess Ruto used to bring a fresh fish every morning. Perhaps he will open his mouth for one.",
+          "We heard a terrible humming inside him. Please find our princess and bring her home."
+        ]
+      }
+    ]
+  }
+}

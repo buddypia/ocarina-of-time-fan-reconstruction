@@ -1,0 +1,3 @@
+[submodule "vendor/Shipwright"]
+	path = vendor/Shipwright
+	url = https://github.com/HarbourMasters/Shipwright.git

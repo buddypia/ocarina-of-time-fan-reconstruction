@@ -1,0 +1,88 @@
+{
+  "temple": {
+    "name": "TEMPLE OF TIME",
+    "arrival": "The noise of the market falls away beneath the vault. Three hollows mark the altar before an unbroken stone door.",
+    "exits": [
+      {
+        "to": "market",
+        "at": [
+          0,
+          0,
+          19
+        ],
+        "label": "Castle Town"
+      }
+    ],
+    "people": []
+  },
+  "escape": [
+    {
+      "speaker": "Navi",
+      "line": "The gates! Impa is taking Zelda out of the castle. Something is terribly wrong.",
+      "duration": 4.5
+    },
+    {
+      "speaker": "Zelda",
+      "line": "Link! Remember the Temple of Time!",
+      "duration": 3.5
+    },
+    {
+      "speaker": "Ganondorf",
+      "line": "A girl on a white horse passed this way. You would stand against me? Remember who rules this kingdom.",
+      "duration": 5.0
+    }
+  ],
+  "echo": [
+    {
+      "speaker": "Zelda's memory",
+      "line": "If this melody reaches you, I could not wait at the castle. I have left you the Ocarina of Time. Take the three Spiritual Stones to the temple in the town.",
+      "duration": 5.5
+    },
+    {
+      "speaker": "Song of Time",
+      "line": "Right, A, down; right, A, down. Place the stones upon the altar, then play the melody before the Door of Time. Its seal will answer.",
+      "duration": 5.5
+    }
+  ],
+  "altar": "Three hollows: forest, fire and water. The inscription asks for the royal instrument and the song that carries its name. E places the three Spiritual Stones; 1 begins a melody.",
+  "door": "Stone slides against stone. Beyond the altar, a sword waits in a shaft of pale light.",
+  "sword": "The Master Sword rests in the pedestal. The sacred blade is the final seal on the entrance to the Sacred Realm.",
+  "awakening": [
+    {
+      "speaker": "Rauru",
+      "line": "Seven years have passed while the sacred blade kept you here. Ganondorf entered the Sacred Realm and seized its power. Hyrule outside these walls has changed.",
+      "duration": 7
+    },
+    {
+      "speaker": "Rauru",
+      "line": "I am the Sage of Light. The other sages must awaken in their temples. Take the Light Medallion and return to the world that needs you.",
+      "duration": 6
+    },
+    {
+      "speaker": "Sheik",
+      "line": "The forest is calling. Saria waits beyond the Sacred Forest Meadow. Find the tool that carries you across a chasm in Kakariko's graveyard, then seek the Forest Temple.",
+      "duration": 7
+    }
+  ],
+  "sages": {
+    "name": "CHAMBER OF SAGES",
+    "arrival": "A circle of stone hangs in the quiet of the Sacred Realm. Rauru waits across the seal.",
+    "exits": [],
+    "people": []
+  },
+  "time_backward": [
+    {
+      "speaker": "The pedestal of time",
+      "line": "The blade returns to the stone. Seven years fall away; the kingdom of your childhood is within reach again.",
+      "duration": 4.0
+    }
+  ],
+  "time_forward": [
+    {
+      "speaker": "The pedestal of time",
+      "line": "The Master Sword leaves the stone. The kingdom seven years ahead calls you back.",
+      "duration": 4.0
+    }
+  ],
+  "prelude": "The forest's sage has awakened. The Master Sword can now join your childhood to this age: return it to the pedestal to go back, and draw it to come forward. Remember this song whenever the road is long: I L I L U I. The Prelude of Light brings you to this sanctuary."
+}

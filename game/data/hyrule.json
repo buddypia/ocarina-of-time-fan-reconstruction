@@ -1,0 +1,46 @@
+{
+  "field": {
+    "name": "HYRULE FIELD",
+    "arrival": "Beyond the forest, the roads meet beneath an open sky. The castle town lies to the north; smoke rises from Death Mountain beyond it.",
+    "exits": [
+      {"to":"forest", "at":[52,0,40], "label":"Kokiri Forest"},
+      {"to":"market", "at":[0,0,-61], "label":"Castle Town"},
+      {"to":"ranch", "at":[0,0,12], "label":"Lon Lon Ranch"}
+    ],
+    "people": [
+      {"id":"owl", "name":"Kaepora Gaebora", "at":[40,0,31], "style":"owl", "lines":["The forest gave you shelter. Out here, the road is yours to choose. Follow the stone markers north to the castle.","The drawbridge closes at night. There is a travelers' fire east of the ranch, if you need to wait for dawn."]},
+      {"id":"runner", "name":"Running Man", "at":[15,0,18], "style":"worker", "lines":["One lap around the ranch before sunset! The northern road is long, but rolling will make the journey quicker.","There used to be caravans on the western road. Now the traders say even the wind sounds angry out there."]}
+    ]
+  },
+  "market": {
+    "name":"HYRULE CASTLE TOWN",
+    "arrival":"Bells, canvas awnings and the smell of warm bread. A ranch girl waits near the fountain, looking for her father.",
+    "exits":[{"to":"field","at":[0,0,21],"label":"Hyrule Field"},{"to":"castle","at":[0,0,-23],"label":"Castle gardens"}],
+    "people":[
+      {"id":"malon_market","name":"Malon","at":[4,0,1],"style":"malon","lines":["My dad took a milk delivery to the castle, and he hasn't come back. He can sleep through anything. Here — keep this egg warm until morning. A cucco ought to wake him!"]},
+      {"id":"baker","name":"Baker","at":[-11,0,8],"style":"worker","lines":["Bread for the guards, bread for the ranch hands... and a heel for every hungry child. Rest a moment; you look as though you've come a long way.","Some nights I see a black horse outside the castle. Whoever rides it never stops at the market."]},
+      {"id":"old_woman","name":"Grandmother","at":[10,0,-8],"style":"elder","lines":["The fountain has outlasted three generations of my family. When the square feels too noisy, I listen for the water.","The princess is cleverer than the court admits. She asks questions that grown-ups would rather leave alone."]},
+      {"id":"town_guard","name":"Town Guard","at":[-3,0,-20],"style":"guard","lines":["Only people on royal business go through the inner gardens. The milkman went up hours ago. If you find him asleep, do us all a favor."]}
+    ]
+  },
+  "castle": {
+    "name":"HYRULE CASTLE GARDENS",
+    "arrival":"Beyond the delivery yard, guards patrol the hedges. Keep out of their sight and use the gaps behind them.",
+    "exits":[{"to":"market","at":[0,0,21],"label":"Return to the market"}],
+    "people":[
+      {"id":"talon","name":"Talon","at":[0,0,11],"style":"talon","lines":["Zzz... just five more minutes... the milk can wait..."]},
+      {"id":"zelda","name":"Princess Zelda","at":[0,0,-22],"style":"zelda","lines":["You came from the forest... and that stone! I dreamed that a boy with a fairy would stand here. The man from the desert seeks the power hidden in the Sacred Realm.","The three Spiritual Stones open the Door of Time. You have the forest's stone. Seek the Gorons on Death Mountain and the Zoras beyond the river. Take my letter; it will show the guards that you are my guest."]},
+      {"id":"impa","name":"Impa","at":[3,0,-20],"style":"impa","lines":["I am responsible for the princess. You have my trust while you protect hers. Learn this melody: left, up, right; left, up, right. The royal family has passed it down for generations."]}
+    ]
+  },
+  "ranch": {
+    "name":"LON LON RANCH",
+    "arrival":"The paddock smells of hay and rain. A chestnut filly watches the gate while Malon's song drifts from the stable.",
+    "exits":[{"to":"field","at":[0,0,22],"label":"Hyrule Field"}],
+    "people":[
+      {"id":"malon_ranch","name":"Malon","at":[-6,0,-1],"style":"malon","lines":["This is Epona. She's shy with strangers, but she remembers a gentle voice. Listen: up, left, right; up, left, right. Try playing it for her."]},
+      {"id":"ingo","name":"Ingo","at":[9,0,7],"style":"worker","lines":["Someone has to mend the fences while the owner naps. Don't leave the gate open. That little filly is quicker than she looks.","The ranch keeps half the town supplied. People only notice the work when the milk stops coming."]},
+      {"id":"talon_ranch","name":"Talon","at":[-10,0,8],"style":"talon","lines":["My daughter says I owe you one. I've filled a bottle with milk for your journey. It has two drinks in it; use one when your hearts run low."]}
+    ]
+  }
+}

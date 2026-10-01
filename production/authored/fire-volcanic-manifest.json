@@ -1,0 +1,26 @@
+{
+  "source": "https://polyhaven.com/a/volcanic_rock_tiles",
+  "author": "Charlotte Baglioni",
+  "license": "CC0-1.0",
+  "license_url": "https://polyhaven.com/license",
+  "files": [
+    {
+      "path": "game/assets/natural/volcanic_rock_tiles/diff.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/volcanic_rock_tiles/volcanic_rock_tiles_diff_2k.jpg",
+      "sha256": "947ae421c776517c7356565f2de05b6fe6f662bd5e2a331388b11e6943b97fb4",
+      "md5": "6ff2a89f363b6e8b42a984dc01a04244"
+    },
+    {
+      "path": "game/assets/natural/volcanic_rock_tiles/nor_gl.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/volcanic_rock_tiles/volcanic_rock_tiles_nor_gl_2k.jpg",
+      "sha256": "52f5f0f19edb6f3fb6d64ded415407a89ae408c96e76d11e8362f11f312e82d8",
+      "md5": "dfb67150d668e1884c209613a001a066"
+    },
+    {
+      "path": "game/assets/natural/volcanic_rock_tiles/arm.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/volcanic_rock_tiles/volcanic_rock_tiles_arm_2k.jpg",
+      "sha256": "7ac68087bbf4e471aca55e351dfadcc1f0dfef6cde6274437af9c0a3c229ef05",
+      "md5": "cc17cf67b7019dfe14b3db737f1760ee"
+    }
+  ]
+}

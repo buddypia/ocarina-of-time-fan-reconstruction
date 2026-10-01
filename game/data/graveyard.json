@@ -1,0 +1,25 @@
+{
+  "places": {
+    "graveyard": {"name":"Kakariko Graveyard","arrival":"The royal tomb stands at the far end. Fresh flowers mark the gravekeeper's resting place on the west side.","exits":[{"to":"kakariko","at":[0,0,23],"label":"Kakariko Village"}],"people":[]},
+    "dampe_race": {"name":"Beneath the gravekeeper's stone","arrival":"Speak to Dampe at the lantern. Follow him through the passages; closing gates punish losing his trail. E returns you to the start after a failed attempt.","exits":[],"people":[]},
+    "shield_grave": {"name":"A forgotten soldier's grave","arrival":"A weathered chest rests beyond the candles.","exits":[{"to":"graveyard","at":[0,0,9],"label":"Climb to the graveyard"}],"people":[]},
+    "royal_tomb": {"name":"Royal Family's Tomb","arrival":"Bats stir above the burial chamber. The inscription is sealed until the chamber is quiet.","exits":[{"to":"graveyard","at":[0,0,17],"label":"Return to the graveyard"}],"people":[]},
+    "heart_grave": {"name":"The sunless chamber","arrival":"A royal inscription reads: light that sleeps within a melody can wake even this place.","exits":[{"to":"graveyard","at":[0,0,9],"label":"Return to the graveyard"}],"people":[]},
+    "windmill": {"name":"Kakariko Windmill","arrival":"A timber shaft rises through the gallery. The upper passage connects to the gravekeeper's underground course.","exits":[{"to":"kakariko","at":[0,0,9],"label":"Kakariko Village"}],"people":[]}
+  },
+  "graves": [
+    {"id":"dampe","at":[-11,0,3],"to":"dampe_race","name":"Dampe's grave","epitaph":"DAMPE · The gravekeeper's legacy waits below. Follow the light; keep your feet."},
+    {"id":"soldier","at":[10,0,8],"to":"shield_grave","name":"Soldier's grave","epitaph":"A shield may outlast the arm that bore it."},
+    {"id":"heart","at":[10,0,-4],"to":"heart_grave","name":"Unmarked grave","epitaph":"The sun remembers those who sleep in darkness."}
+  ],
+  "race": {
+    "route":[[0,0,8],[0,0,0],[0,0,-10],[10,0,-10],[18,0,-10],[18,0,-20],[18,0,-30],[8,0,-30],[0,0,-30],[0,0,-40],[0,0,-50],[10,0,-50],[20,0,-50],[20,0,-60],[20,0,-70],[10,0,-70],[0,0,-70],[0,0,-80],[0,0,-90]],
+    "gates":[5,9,14],"speed":4.15,"gate_seconds":9.0,"bonus_seconds":60.0
+  },
+  "adult_dialogue": {
+    "mountain_guard":["The road is open. The castle fell seven years ago; people who escaped found shelter here. The cemetery lies east of the village."],
+    "anju":["These used to be quieter streets. I still care for the cuccos, but the refugees need a place to sleep too. Dampe passed away during those seven years."],
+    "carpenter":["We made room for the people from the market. The graves are east, past the last house. A strange light moves under Dampe's stone."],
+    "windmill_keeper":["That tune! A child played it seven years ago and the windmill would not stop. Come inside; I have never forgotten it."]
+  }
+}

@@ -1,0 +1,18 @@
+[
+  {
+    "file": "anemone-tentacles.jpg",
+    "image_url": "https://oceanexplorer.noaa.gov/wp-content/uploads/2025/08/dive15-anemone.jpg",
+    "source_page": "https://oceanexplorer.noaa.gov/multimedia/anemone-tentacles/",
+    "credit": "NOAA Ocean Exploration, 2025 Beyond the Blue",
+    "sha256": "175bf5e4cc90188d9d81a3c91765defbc5150b26e743076b337db2fc1f7395f1",
+    "use": "Reference-only, not included as a runtime game asset."
+  },
+  {
+    "file": "anemone-inner-crown.jpg",
+    "image_url": "https://oceanexplorer.noaa.gov/wp-content/uploads/2021/12/20211213-hires.jpg",
+    "source_page": "https://oceanexplorer.noaa.gov/multimedia/daily-image-media-20211213/",
+    "credit": "NOAA Ocean Exploration, Deep Connections 2019",
+    "sha256": "bd387526855eeb60af90bb67195eec9cecf977bf12a620d78b215ea1a472b152",
+    "use": "Reference-only, not included as a runtime game asset."
+  }
+]

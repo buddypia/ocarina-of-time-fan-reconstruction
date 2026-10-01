@@ -1,0 +1,27 @@
+{
+  "provenance": "Authored reconstruction. Layout, dialogue, geometry and encounter values authored here; vanilla progression dependencies checked against the retained Shipwright logic. Not original ROM data.",
+  "rooms": {
+    "mouth": {"name":"THE LIVING THRESHOLD", "hint":"That pale membrane above the passage reacts to impact. Focus it with Q, then fire a Deku seed with R.", "exits":[["fountain",0,0,10],["lift",0,0,-10]]},
+    "lift": {"name":"THE BREATHING SHAFT", "hint":"The central fold rises and falls with his breath. Ruto's voice echoes from the chamber beyond it.", "exits":[["mouth",0,0,10],["holes",0,0,-10],["water",-9,0,0],["near_boss",9,0,0]]},
+    "holes": {"name":"THE DIVIDED CHAMBER", "hint":"The princess was here a moment ago. A torn fold leads down into a flooded chamber. The northern passage is choked by a living root.", "exits":[["lift",0,0,10],["water",-9,0,0],["fork",9,0,0],["octo",0,0,-10]]},
+    "water": {"name":"THE TIDAL POCKET", "hint":"A pressure nodule on the right raises the water. Speak to Ruto, carry her with E, and bring her back to the upper passages.", "exits":[["holes",0,0,10],["lift",0,0,-10]]},
+    "fork": {"name":"THE FIVEFOLD PASSAGE", "hint":"Ruto can hold down the round seal at the eastern door. Set her on it with E. You will need a returning weapon to loosen the roots.", "exits":[["holes",0,0,10],["stingers",9,0,2],["west",-9,0,2],["bubbles",-7,0,-7],["east",7,0,-7],["north",0,0,-10]]},
+    "stingers": {"name":"THE SUNKEN NEST", "hint":"Stingers hide beneath the shallow membrane, then leap. Avoid their approach and strike after they surface. A thrown princess can also stop them.", "exits":[["fork",0,0,10]]},
+    "west": {"name":"THE WESTERN ROOT", "hint":"Stay just beyond the root's reach. When it stretches toward you, its pale neck is exposed to the boomerang.", "exits":[["fork",0,0,10]]},
+    "bubbles": {"name":"THE AIR SAC", "hint":"Burst the drifting bubbles before the chamber exhales. If time runs out, leave and return for another attempt.", "exits":[["fork",0,0,10]]},
+    "east": {"name":"THE EASTERN ROOT", "hint":"The western root has relaxed this passage. Cut the next constriction to reach the northern chamber.", "exits":[["fork",0,0,10]]},
+    "north": {"name":"THE NORTHERN ROOT", "hint":"Biri gather around the last root. Their electrical charge repels a sword; the boomerang can interrupt it.", "exits":[["fork",0,0,10]]},
+    "octo": {"name":"THE PRINCESS'S STONE", "hint":"Bring Ruto to the raised seal. The jewel she came to recover lies beyond the constriction.", "exits":[["holes",0,0,10],["jigglies",0,0,-10]]},
+    "jigglies": {"name":"THE TREMBLING BRIDGE", "hint":"The living pads repel anyone who touches them. A boomerang settles each pad for a few seconds. Cross while both are quiet.", "exits":[["octo",0,0,10],["near_boss",0,0,-10]]},
+    "near_boss": {"name":"THE INNER SEAL", "hint":"A fold shields the last switch from a straight shot. Stand on the left, focus the pale nodule and let the boomerang curve around it.", "exits":[["lift",0,0,10],["barinade",0,0,-10]]},
+    "barinade": {"name":"BIO-ELECTRIC ANEMONE · BARINADE", "hint":"Sever the three ceiling connections with the boomerang. Break through the circling Biri, stun the exposed body, then use your sword.", "exits":[]}
+  },
+  "ruto": {
+    "first":"You followed my letter? I did not ask for a guard! Something inside Lord Jabu-Jabu has taken my mother's stone. I am going to get it back.",
+    "rescue":"The current brought me down here. If you insist on helping, carry me. Put me down before drawing a weapon, and do not leave me behind!",
+    "carry":"E lifts or sets Ruto down. T throws her forward. Keep her clear of enemies and carry her through the passages.",
+    "altar":"There! Mother's stone! Set me on that seal. I can reach it from there.",
+    "reward":"You came back for me, even when the whole chamber shook. Take the Zora's Sapphire. My mother entrusted it to me, and now I am trusting you. Remember that promise."
+  },
+  "combat": {"stinger_health":2,"tentacle_health":3,"big_octo_health":4,"barinade_health":9,"bubble_time":40}
+}

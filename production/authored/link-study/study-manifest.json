@@ -1,0 +1,26 @@
+{
+  "sha256": "84efc2e3cd3cae9ad9f0357f0903c454a172eb0581f2fd386fa073cc3731b02a",
+  "bytes": 14499876,
+  "animations": [
+    "Attack",
+    "Carry",
+    "Climb",
+    "Idle",
+    "Swim",
+    "Walk"
+  ],
+  "skins": 1,
+  "meshes": 18,
+  "materials": [
+    "Dyed forest-green wool",
+    "Brown vegetable-tanned leather",
+    "Linen stitching",
+    "Aged brass buckle",
+    "CC0 skin \u2014 MakeHuman young light male",
+    "CC0 blue iris and sclera",
+    "Unbleached linen breeches",
+    "CC0 short hair"
+  ],
+  "runtime_integrated": false,
+  "visual_acceptance": false
+}

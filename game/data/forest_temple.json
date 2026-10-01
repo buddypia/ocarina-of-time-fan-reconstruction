@@ -1,0 +1,849 @@
+{
+  "provenance": "Authored reconstruction informed by pinned Shipwright progression logic. Not extracted ROM geometry.",
+  "rooms": {
+    "trees": {
+      "name": "The Forest Temple - Entrance",
+      "size": [
+        28,
+        32
+      ],
+      "open_sky": true,
+      "exits": [
+        {
+          "to": "hall",
+          "at": [
+            0,
+            0,
+            -13
+          ],
+          "lock": "",
+          "require": ""
+        },
+        {
+          "to": "meadow",
+          "at": [
+            0,
+            0,
+            13
+          ]
+        }
+      ]
+    },
+    "hall": {
+      "name": "Overgrown Hall",
+      "size": [
+        12,
+        26
+      ],
+      "open_sky": false,
+      "exits": [
+        {
+          "to": "trees",
+          "at": [
+            0,
+            0,
+            10
+          ],
+          "lock": "",
+          "require": ""
+        },
+        {
+          "to": "lobby",
+          "at": [
+            0,
+            0,
+            -10
+          ],
+          "lock": "",
+          "require": ""
+        }
+      ]
+    },
+    "lobby": {
+      "name": "Hall of the Four Flames",
+      "size": [
+        32,
+        36
+      ],
+      "open_sky": false,
+      "exits": [
+        {
+          "to": "hall",
+          "at": [
+            0,
+            0,
+            15
+          ],
+          "lock": "",
+          "require": ""
+        },
+        {
+          "to": "north",
+          "at": [
+            0,
+            0,
+            -15
+          ],
+          "lock": "",
+          "require": ""
+        },
+        {
+          "to": "west",
+          "at": [
+            -13,
+            0,
+            -7
+          ],
+          "lock": "",
+          "require": "time_block"
+        },
+        {
+          "to": "east",
+          "at": [
+            13,
+            0,
+            -7
+          ],
+          "lock": "",
+          "require": ""
+        },
+        {
+          "to": "blocks",
+          "at": [
+            -13,
+            0,
+            7
+          ],
+          "lock": "west_door",
+          "require": ""
+        },
+        {
+          "to": "green",
+          "at": [
+            13,
+            0,
+            7
+          ],
+          "lock": "",
+          "require": ""
+        },
+        {
+          "to": "basement",
+          "at": [
+            0,
+            0,
+            0
+          ],
+          "lock": "",
+          "require": "four_poes"
+        }
+      ]
+    },
+    "north": {
+      "name": "Stalfos Guardroom",
+      "size": [
+        24,
+        28
+      ],
+      "open_sky": false,
+      "exits": [
+        {
+          "to": "lobby",
+          "at": [
+            0,
+            0,
+            11
+          ],
+          "lock": "",
+          "require": ""
+        }
+      ]
+    },
+    "west": {
+      "name": "Western Cloister",
+      "size": [
+        30,
+        34
+      ],
+      "open_sky": true,
+      "exits": [
+        {
+          "to": "lobby",
+          "at": [
+            12,
+            0,
+            7
+          ],
+          "lock": "",
+          "require": ""
+        },
+        {
+          "to": "map",
+          "at": [
+            -9,
+            4,
+            -12
+          ],
+          "lock": "",
+          "require": ""
+        },
+        {
+          "to": "well",
+          "at": [
+            8,
+            0,
+            -8
+          ],
+          "lock": "",
+          "require": "drained"
+        },
+        {
+          "to": "west_upper",
+          "at": [
+            0,
+            4,
+            -12
+          ],
+          "lock": "",
+          "require": ""
+        }
+      ]
+    },
+    "map": {
+      "name": "The Upper Passage",
+      "size": [
+        20,
+        26
+      ],
+      "open_sky": false,
+      "exits": [
+        {
+          "to": "west",
+          "at": [
+            0,
+            0,
+            10
+          ],
+          "lock": "",
+          "require": ""
+        },
+        {
+          "to": "east",
+          "at": [
+            0,
+            0,
+            -10
+          ],
+          "lock": "",
+          "require": "map_guard"
+        }
+      ]
+    },
+    "east": {
+      "name": "Eastern Cloister",
+      "size": [
+        30,
+        34
+      ],
+      "open_sky": true,
+      "exits": [
+        {
+          "to": "map",
+          "at": [
+            -9,
+            4,
+            -12
+          ],
+          "lock": "",
+          "require": ""
+        },
+        {
+          "to": "well",
+          "at": [
+            8,
+            0,
+            -8
+          ],
+          "lock": "",
+          "require": "drained"
+        },
+        {
+          "to": "lobby",
+          "at": [
+            12,
+            0,
+            7
+          ],
+          "lock": "",
+          "require": "eye_east"
+        }
+      ]
+    },
+    "well": {
+      "name": "Drained Well",
+      "size": [
+        12,
+        32
+      ],
+      "open_sky": false,
+      "exits": [
+        {
+          "to": "west",
+          "at": [
+            0,
+            0,
+            13
+          ],
+          "lock": "",
+          "require": ""
+        },
+        {
+          "to": "east",
+          "at": [
+            0,
+            0,
+            -13
+          ],
+          "lock": "",
+          "require": ""
+        }
+      ]
+    },
+    "blocks": {
+      "name": "The Weight of Stone",
+      "size": [
+        28,
+        36
+      ],
+      "open_sky": false,
+      "exits": [
+        {
+          "to": "lobby",
+          "at": [
+            0,
+            0,
+            15
+          ],
+          "lock": "west_door",
+          "require": ""
+        },
+        {
+          "to": "twist_w",
+          "at": [
+            4,
+            4,
+            -14
+          ],
+          "lock": "upper_door",
+          "require": ""
+        },
+        {
+          "to": "west_upper",
+          "at": [
+            -9,
+            2,
+            -5
+          ],
+          "lock": "",
+          "require": ""
+        }
+      ]
+    },
+    "twist_w": {
+      "name": "The Twisted Western Passage",
+      "size": [
+        18,
+        28
+      ],
+      "open_sky": false,
+      "exits": [
+        {
+          "to": "blocks",
+          "at": [
+            0,
+            0,
+            11
+          ],
+          "lock": "upper_door",
+          "require": ""
+        },
+        {
+          "to": "red",
+          "at": [
+            0,
+            0,
+            -11
+          ],
+          "lock": "red_door",
+          "require": "twisted_w"
+        },
+        {
+          "to": "boss_key",
+          "at": [
+            6,
+            0,
+            -8
+          ],
+          "lock": "",
+          "require": "straight_w"
+        }
+      ]
+    },
+    "boss_key": {
+      "name": "The Inverted Treasury",
+      "size": [
+        18,
+        24
+      ],
+      "open_sky": false,
+      "exits": [
+        {
+          "to": "twist_w",
+          "at": [
+            0,
+            0,
+            9
+          ],
+          "lock": "",
+          "require": ""
+        },
+        {
+          "to": "below",
+          "at": [
+            5,
+            0,
+            -7
+          ],
+          "lock": "",
+          "require": ""
+        }
+      ]
+    },
+    "below": {
+      "name": "The Chamber Below",
+      "size": [
+        20,
+        24
+      ],
+      "open_sky": false,
+      "exits": [
+        {
+          "to": "boss_key",
+          "at": [
+            0,
+            0,
+            9
+          ],
+          "lock": "",
+          "require": ""
+        },
+        {
+          "to": "west_upper",
+          "at": [
+            0,
+            0,
+            -9
+          ],
+          "lock": "",
+          "require": "below_guard"
+        }
+      ]
+    },
+    "west_upper": {
+      "name": "Western Gallery",
+      "size": [
+        24,
+        26
+      ],
+      "open_sky": true,
+      "exits": [
+        {
+          "to": "below",
+          "at": [
+            0,
+            0,
+            10
+          ],
+          "lock": "",
+          "require": ""
+        },
+        {
+          "to": "floormaster",
+          "at": [
+            -9,
+            0,
+            0
+          ],
+          "lock": "",
+          "require": ""
+        },
+        {
+          "to": "blocks",
+          "at": [
+            9,
+            0,
+            0
+          ],
+          "lock": "",
+          "require": ""
+        },
+        {
+          "to": "west",
+          "at": [
+            0,
+            0,
+            -10
+          ],
+          "lock": "",
+          "require": ""
+        }
+      ]
+    },
+    "floormaster": {
+      "name": "The Crawling Hand",
+      "size": [
+        24,
+        26
+      ],
+      "open_sky": false,
+      "exits": [
+        {
+          "to": "west_upper",
+          "at": [
+            0,
+            0,
+            10
+          ],
+          "lock": "",
+          "require": ""
+        }
+      ]
+    },
+    "red": {
+      "name": "Joelle - The Red Gallery",
+      "size": [
+        26,
+        32
+      ],
+      "open_sky": false,
+      "exits": [
+        {
+          "to": "twist_w",
+          "at": [
+            0,
+            0,
+            13
+          ],
+          "lock": "red_door",
+          "require": ""
+        },
+        {
+          "to": "bow",
+          "at": [
+            0,
+            0,
+            -13
+          ],
+          "lock": "",
+          "require": ""
+        }
+      ]
+    },
+    "bow": {
+      "name": "The Upper Stalfos Arena",
+      "size": [
+        28,
+        32
+      ],
+      "open_sky": false,
+      "exits": [
+        {
+          "to": "red",
+          "at": [
+            0,
+            0,
+            13
+          ],
+          "lock": "",
+          "require": ""
+        },
+        {
+          "to": "blue",
+          "at": [
+            0,
+            0,
+            -13
+          ],
+          "lock": "",
+          "require": "bow"
+        }
+      ]
+    },
+    "blue": {
+      "name": "Beth - The Blue Gallery",
+      "size": [
+        26,
+        32
+      ],
+      "open_sky": false,
+      "exits": [
+        {
+          "to": "bow",
+          "at": [
+            0,
+            0,
+            13
+          ],
+          "lock": "",
+          "require": ""
+        },
+        {
+          "to": "twist_e",
+          "at": [
+            0,
+            0,
+            -13
+          ],
+          "lock": "east_door",
+          "require": ""
+        }
+      ]
+    },
+    "twist_e": {
+      "name": "The Sealed Eastern Passage",
+      "size": [
+        16,
+        28
+      ],
+      "open_sky": false,
+      "exits": [
+        {
+          "to": "blue",
+          "at": [
+            0,
+            0,
+            11
+          ],
+          "lock": "east_door",
+          "require": ""
+        },
+        {
+          "to": "frozen",
+          "at": [
+            0,
+            0,
+            -11
+          ],
+          "lock": "frozen_door",
+          "require": ""
+        },
+        {
+          "to": "ceiling",
+          "at": [
+            5,
+            0,
+            -8
+          ],
+          "lock": "",
+          "require": "frozen_eye"
+        }
+      ]
+    },
+    "frozen": {
+      "name": "Fire and the Frozen Eye",
+      "size": [
+        26,
+        32
+      ],
+      "open_sky": false,
+      "exits": [
+        {
+          "to": "twist_e",
+          "at": [
+            0,
+            0,
+            13
+          ],
+          "lock": "frozen_door",
+          "require": ""
+        }
+      ]
+    },
+    "ceiling": {
+      "name": "The Falling Ceiling",
+      "size": [
+        24,
+        30
+      ],
+      "open_sky": false,
+      "exits": [
+        {
+          "to": "twist_e",
+          "at": [
+            0,
+            0,
+            12
+          ],
+          "lock": "",
+          "require": ""
+        },
+        {
+          "to": "green",
+          "at": [
+            0,
+            0,
+            -12
+          ],
+          "lock": "",
+          "require": ""
+        }
+      ]
+    },
+    "green": {
+      "name": "Amy - The Broken Portrait",
+      "size": [
+        26,
+        30
+      ],
+      "open_sky": false,
+      "exits": [
+        {
+          "to": "ceiling",
+          "at": [
+            0,
+            0,
+            12
+          ],
+          "lock": "",
+          "require": ""
+        },
+        {
+          "to": "lobby",
+          "at": [
+            0,
+            0,
+            -12
+          ],
+          "lock": "",
+          "require": "amy"
+        }
+      ]
+    },
+    "basement": {
+      "name": "The Rotating Basement",
+      "size": [
+        30,
+        30
+      ],
+      "open_sky": false,
+      "exits": [
+        {
+          "to": "lobby",
+          "at": [
+            0,
+            0,
+            0
+          ],
+          "lock": "",
+          "require": ""
+        },
+        {
+          "to": "boss",
+          "at": [
+            0,
+            0,
+            -12
+          ],
+          "lock": "",
+          "require": "boss_door"
+        }
+      ]
+    },
+    "boss": {
+      "name": "Phantom Ganon",
+      "size": [
+        32,
+        34
+      ],
+      "open_sky": false,
+      "exits": [
+        {
+          "to": "basement",
+          "at": [
+            0,
+            0,
+            13
+          ],
+          "lock": "",
+          "require": ""
+        }
+      ]
+    },
+    "saria": {
+      "name": "Saria - Sage of Forest",
+      "size": [
+        24,
+        28
+      ],
+      "open_sky": true,
+      "exits": []
+    }
+  },
+  "key_chests": {
+    "tree_key": "trees",
+    "guard_key": "north",
+    "well_key": "well",
+    "red_key": "red",
+    "hand_key": "floormaster"
+  },
+  "poes": {
+    "joelle": "red",
+    "beth": "blue",
+    "amy": "green",
+    "meg": "lobby"
+  },
+  "combat": {
+    "stalfos": 6,
+    "bubble": 2,
+    "floormaster": 4,
+    "handlet": 1,
+    "poe": 5,
+    "phantom": 30,
+    "moblin": 6,
+    "skulltula": 2
+  },
+  "woods": {
+    "sequence": [
+      "right",
+      "left",
+      "right",
+      "left",
+      "forward",
+      "left",
+      "right"
+    ],
+    "hints": [
+      "A familiar melody drifts from the right.",
+      "The song bends left, between old roots.",
+      "Listen to the right-hand hollow.",
+      "The tune returns on the left.",
+      "The clearest notes come from straight ahead.",
+      "A quiet refrain waits on the left.",
+      "The last notes lead to the right."
+    ]
+  },
+  "sheik": [
+    "Time passes, people move. The forest remembers what has changed.",
+    "You learned the Minuet of Forest: J I U L U L. Play it to return to this clearing. The Hookshot can reach the branch above the ruined steps."
+  ],
+  "saria": [
+    "The forest has been calling, Link. You have brought its light back.",
+    "I am the Sage of Forest. Take the Forest Medallion and carry our promise beyond these woods. The Master Sword can now lead you back to the years you left behind."
+  ],
+  "sprout": [
+    "The curse has lifted. Roots that slept beneath this ground can grow again. I am a new life of the Deku Tree, and Saria now guards the forest as its sage. Press E to listen.",
+    "Before peace came to Hyrule, a wounded mother carried her infant into these woods. The Deku Tree sheltered her child among the Kokiri. That child was you. Press E to listen.",
+    "The Kokiri remain children, but you grew because you are Hylian. The forest was your home by kindness, not by birth. Your mother's journey ended here; yours reaches far beyond these trees. Press E to listen.",
+    "Saria has not forgotten the friend who left the forest. Carry her gift to the other sages. Return to the Temple of Time: the sword's pedestal still has a lesson for you."
+  ]
+}

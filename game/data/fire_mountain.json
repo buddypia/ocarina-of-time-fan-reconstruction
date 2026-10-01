@@ -1,0 +1,27 @@
+{
+  "authorship": "Independent reconstruction: authored dialogue, dimensions and placement. Vanilla progression consulted in pinned Shipwright logic; no extracted game data.",
+  "places": {
+    "crater": {"name":"DEATH MOUNTAIN CRATER", "arrival":"The bridge has collapsed over a lake of cooling black crust. Fresh cracks glow below. A wooden bridge post still stands across the gap.","exits":[],"people":[]}
+  },
+  "link_goron": [
+    "Stop! I thought you were one of Ganondorf's servants. My father named me Link, after the brother who saved our city. You have that same name?",
+    "Ganondorf took everyone to the Fire Temple. He means to feed them to the dragon Volvagia. Father went after them alone. He told me to stay here, but every empty doorway sounds like someone calling.",
+    "Take my Goron Tunic. Its woven mineral fibres protect you from the crater's heat, but they cannot make lava safe. The stone figure behind Father's room hides the passage. Please bring everyone home."
+  ],
+  "darunia": [
+    "Seven years, brother. I hoped our next meeting would be around a feast. Ganondorf has awakened Volvagia and imprisoned my people here. I will face the dragon. You must open the cells.",
+    "Our old hammer can break the dragon's armour. It is somewhere above us. Keep the keys you find; the jailers locked both the climbing route and the lower chambers."
+  ],
+  "prisoners": {
+    "near": "Thank you! The jailers left a key in that chest. Use it on the eastern door in the entrance hall. Their iron bars lift when you step on a floor switch.",
+    "curved": "The other cell lies behind a cracked wall across the lava hall. A bomb will open it. Watch the ledges; the tunic protects you from the air, not a fall into the lake.",
+    "blocked": "There is a shaft beyond the northern door. A stone plug rests above a vent: push it into the rising heat, then ride it upward. The boulder maze is higher still."
+  },
+  "rooms": {
+    "foyer": {"name":"FIRE TEMPLE · Entrance hall","size":[24,28],"lava":false,"exits":[{"to":"crater","at":[0,0,12]},{"to":"near","at":[-10,0,0]},{"to":"lava","at":[10,0,0],"key":"entrance_east"}]},
+    "near": {"name":"FIRE TEMPLE · Darunia's crossing","size":[32,30],"lava":true,"exits":[{"to":"foyer","at":[0,0,13]}]},
+    "lava": {"name":"FIRE TEMPLE · Lava bridge","size":[34,38],"lava":true,"exits":[{"to":"foyer","at":[0,0,17],"key":"entrance_east"},{"to":"curved","at":[-15,0,0]},{"to":"blocked","at":[15,0,0],"bomb":"cell_wall"}]},
+    "curved": {"name":"FIRE TEMPLE · Western cell","size":[14,20],"lava":false,"exits":[{"to":"lava","at":[0,0,8]}]},
+    "blocked": {"name":"FIRE TEMPLE · Eastern cell","size":[14,20],"lava":false,"exits":[{"to":"lava","at":[0,0,8]}]}
+  }
+}

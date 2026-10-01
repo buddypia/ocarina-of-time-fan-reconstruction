@@ -1,0 +1,14 @@
+diff --git a/src/fast/backends/gfx_metal.cpp b/src/fast/backends/gfx_metal.cpp
+index 9f9ea33..ddf1a4c 100644
+--- a/src/fast/backends/gfx_metal.cpp
++++ b/src/fast/backends/gfx_metal.cpp
+@@ -622,6 +622,9 @@ void GfxRenderingAPIMetal::SetupScreenFramebuffer(uint32_t width, uint32_t heigh
+         tex.texture->release();
+ 
+     tex.texture = mCurrentDrawable->texture();
++    // The drawable owns this texture. Keep our own reference to balance the
++    // release above when replacing the screen framebuffer on the next frame.
++    tex.texture->retain();
+ 
+     MTL::RenderPassDescriptor* render_pass_descriptor = MTL::RenderPassDescriptor::renderPassDescriptor();
+     render_pass_descriptor->colorAttachments()->object(0)->setTexture(tex.texture);
