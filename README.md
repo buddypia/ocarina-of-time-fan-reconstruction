@@ -1,10 +1,10 @@
 # 時のオカリナ — 自作データによる再制作
 # Ocarina of Time — Authored Fan Reconstruction
 
-> [!WARNING]
-> **LEGAL DISCLAIMER / 法的免責事項**
-> - **English**: This is an **unofficial, non-commercial educational fan reconstruction**. This project is **NOT affiliated with, sponsored by, or endorsed by Nintendo Co., Ltd.** "The Legend of Zelda" and "Ocarina of Time" are registered trademarks of Nintendo Co., Ltd. **NO copyrighted Nintendo game ROMs, official textures, meshes, audio rips, or original code are included in this repository.** All game assets are independently authored or derived from CC0 sources. See [LEGAL_DISCLAIMER.md](LEGAL_DISCLAIMER.md) and [ATTRIBUTION.md](ATTRIBUTION.md).
-> - **日本語**: 本リポジトリは、**非営利・教育・技術研究を目的としたファンによる自主再制作プロジェクト**です。**任天堂株式会社とは一切関係がなく、公認・後援されたものではありません**。『ゼルダの伝説』『時のオカリナ』は任天堂株式会社の登録商標です。**本リポジトリには任天堂の著作権保護対象であるゲームROM、公式テクスチャ、3Dモデル、録音楽曲等は一切含まれていません。** 全て自作スクリプト、Blenderによる造形、またはCC0素材で構成されています。詳細は [LEGAL_DISCLAIMER.md](LEGAL_DISCLAIMER.md) および [ATTRIBUTION.md](ATTRIBUTION.md) をご確認ください。
+> [!CAUTION]
+> **LEGAL DISCLAIMER & LIMITATION OF LIABILITY / 法的免責事項・責任の免責**
+> - **English**: This is an **unofficial, non-commercial fan reconstruction** adapting and referencing intellectual property owned by Nintendo Co., Ltd. without official authorization. The creators and contributors assume **ABSOLUTELY NO LIABILITY OR RESPONSIBILITY** for any claims, damages, takedowns, or legal consequences arising from using, running, or forking this code. **USE ENTIRELY AT YOUR OWN RISK.** All trademarks and copyrights belong to Nintendo Co., Ltd. **NO copyrighted ROMs, rips, or official Nintendo assets are included.** See [LEGAL_DISCLAIMER.md](LEGAL_DISCLAIMER.md) and [LICENSE](LICENSE).
+> - **日本語**: 本リポジトリは、任天堂株式会社の知的財産（『ゼルダの伝説』）を元に、公式の許諾なく個人的・非公式に模倣・再構成した**ファンメイド作品**です。**任天堂株式会社とは一切関係がありません**。本コードの利用・実行・フォーク・再配布等により生じたいかなる損害・法的トラブル・不利益についても、**作者および開発者は一切の責任を負いません（完全自己責任）**。本リポジトリには任天堂の著作権保護対象であるゲームROMや抽出アセットは一切含まれていません。詳細は [LEGAL_DISCLAIMER.md](LEGAL_DISCLAIMER.md) および [LICENSE](LICENSE) をご確認ください。
 
 ---
 
@@ -12,10 +12,9 @@
 
 | Document | Description |
 |---|---|
-| ⚖️ [LEGAL_DISCLAIMER.md](LEGAL_DISCLAIMER.md) | Trademark, copyright notices, and non-affiliation statements |
-| 📄 [LICENSE](LICENSE) | MIT License with IP special notices |
+| ⚖️ [LEGAL_DISCLAIMER.md](LEGAL_DISCLAIMER.md) | Trademark notices, liability waiver, and non-affiliation statements |
+| 📄 [LICENSE](LICENSE) | MIT License with IP special disclaimer & limitation of liability |
 | 🧩 [ATTRIBUTION.md](ATTRIBUTION.md) | Third-party software (Godot), CC0 scans (Poly Haven, MakeHuman), and credits |
-| 🛡️ [SECURITY.md](SECURITY.md) | Security policy, reporting accidental leaks, and vulnerability disclosure |
 | 🤝 [CONTRIBUTING.md](CONTRIBUTING.md) | Contribution guidelines and strict "No ROMs / No Copyrighted Assets" rules |
 | 📜 [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) | Contributor Covenant Code of Conduct |
 | 📈 [docs/PROGRESS.md](docs/PROGRESS.md) | Detailed verification ledger, frame metrics, and area progress |

@@ -21,17 +21,35 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 ==============================================================================
-SPECIAL NOTICE REGARDING INTELLECTUAL PROPERTY & THIRD-PARTY RIGHTS
+SPECIAL DISCLAIMER REGARDING NINTENDO IP & LIMITATION OF LIABILITY
+（ゼルダIPの利用に関する特記事項および責任の免責）
 ==============================================================================
 
-1. This license applies exclusively to the original computer code, shaders,
-   scripts, and procedural generation tools created specifically for this project.
+1. UNOFFICIAL FAN WORK / NON-AFFILIATION:
+   This software is an unofficial, non-commercial fan creation made by adapting,
+   referencing, and reconstructing elements of "The Legend of Zelda: Ocarina of Time",
+   which is the intellectual property of Nintendo Co., Ltd.
+   This project is NOT licensed, authorized, sponsored, or endorsed by Nintendo Co., Ltd.
+   All characters, trademarks, storylines, names, and setting designs belong
+   exclusively to Nintendo Co., Ltd.
 
-2. This license DOES NOT grant any rights to the intellectual property,
-   trademarks, or copyrighted characters, names, storylines, or designs owned
-   by Nintendo Co., Ltd. (including "The Legend of Zelda", "Ocarina of Time",
-   and related characters).
+2. ABSOLUTE DISCLAIMER OF LIABILITY (作者の一切の免責):
+   The authors and contributors of this software assume ABSOLUTELY NO RESPONSIBILITY
+   OR LIABILITY for any consequences arising from the use, downloading, cloning,
+   forking, modification, distribution, or execution of this software.
+   This includes, but is not limited to:
+   - Direct, indirect, incidental, or consequential damages of any kind;
+   - Intellectual property disputes, legal claims, takedowns, or cease-and-desist
+     actions initiated by third parties (including copyright/trademark owners);
+   - Hardware malfunctions, data loss, save data corruption, or system errors.
 
-3. Third-party assets incorporated into this repository (e.g. Godot Engine,
-   Poly Haven scans, MakeHuman CC0 data, and Shipwright source code) are licensed
-   under their respective licenses. See ATTRIBUTION.md for complete details.
+3. USE ENTIRELY AT YOUR OWN RISK (完全な自己責任):
+   Anyone who interacts with, downloads, compiles, or redistributes this project
+   does so ENTIRELY AT THEIR OWN RISK and assumes all associated legal, civil,
+   and operational risks and liabilities.
+
+4. SCOPE OF MIT LICENSE:
+   This MIT License grants permissions solely to the original code, scripts,
+   shaders, and procedural tools written by the contributors of this project.
+   It does not and cannot grant any licenses or rights to Nintendo's intellectual
+   property, nor does it grant permission for commercial exploitation.

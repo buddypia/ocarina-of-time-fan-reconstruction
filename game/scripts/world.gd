@@ -365,7 +365,7 @@ func setup_hud() -> void:
 	resume.custom_minimum_size.y=40
 	resume.pressed.connect(load_game)
 	stack.add_child(resume)
-	var disclaimer=label("Unofficial non-commercial fan work · No ROMs included\nNot affiliated with or endorsed by Nintendo Co., Ltd.",11,Color("a6aa93"))
+	var disclaimer=label("Unofficial fan reconstruction · No ROMs included · Use at your own risk\nNot affiliated with or endorsed by Nintendo Co., Ltd.",11,Color("a6aa93"))
 	disclaimer.horizontal_alignment=HORIZONTAL_ALIGNMENT_CENTER
 	stack.add_child(disclaimer)
 	begin.grab_focus()
