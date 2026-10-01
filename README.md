@@ -22,6 +22,30 @@
 
 ---
 
+## 🎮 Gameplay & Automated E2E Showcase / ゲームプレイ・自動検証
+
+本プロジェクトは、Godot Engine 4.x 上で動作する自作データ（3Dモデル・テクスチャ・スクリプト・合成音声）による再制作環境と、入力駆動の自動E2Eテストスイートを備えています。
+
+### ⚔️ King Dodongo Boss Battle (Automated E2E Test)
+![King Dodongo Boss Battle E2E](docs/media/boss-battle-e2e.gif)
+*ドドンゴの洞窟 ボス戦「キングドドンゴ」の自動E2Eテスト：爆弾の吸い込み、ダウン状態の斬撃、転がり回避のシーケンスを完全自動検証*
+
+### 🌲 Kokiri Forest Exploration (Authored 3D World)
+![Kokiri Forest Exploration](docs/media/kokiri-exploration.gif)
+*コキリの森の探索：10種類の独自アニメーション（歩行・走行・ローリング・ガード等）とNPC対話・買い物ルーチン*
+
+### 📸 Screenshot Gallery / ギャラリー
+
+| コキリの森 全景（メインストリート） | サリアとの対話とナビィのアドバイス |
+| :---: | :---: |
+| ![Kokiri Overlook](docs/media/screenshot-kokiri-overlook.jpg) | ![Saria Dialogue](docs/media/screenshot-kokiri-forest.jpg) |
+| **キングドドンゴ（ボス戦・スタン状態）** | **コキリの店（デクの盾の購入）** |
+| ![King Dodongo](docs/media/screenshot-king-dodongo.jpg) | ![Kokiri Shop](docs/media/screenshot-kokiri-shop.jpg) |
+| **森の神殿（ねじれた廊下と大人リンク）** | **氷の目と炎の仕掛け（E2E自動パズル解決）** |
+| ![Forest Temple](docs/media/screenshot-forest-temple.jpg) | ![Puzzle E2E](docs/media/screenshot-puzzle-e2e.jpg) |
+
+---
+
 ## 概要 / Overview
 
 **制作中。全編のフル実装と、実写に近い3D品質への更新は未完了です。**
@@ -39,13 +63,32 @@ python3 tools/authored.py import
 python3 tools/authored.py play
 ```
 
-### 2. ビルド済みアプリの起動 (Prebuilt Releases)
+### 2. 自動E2Eテストスイートの実行 (Automated Verification)
+ヘッドレス（画面なし）およびビジュアル環境で各種ゲームプレイ契約を自動テストします：
+```sh
+# ドドンゴの洞窟・戦闘テスト
+python3 tools/authored.py verify --mountain --headless
+
+# ジャブジャブ様の体内
+python3 tools/authored.py verify --jabu --fixture --headless
+
+# 時の神殿・マスターソード・大人リンク
+python3 tools/authored.py verify --time-quest --fixture --headless
+
+# 森の神殿
+python3 tools/authored.py verify --forest-temple --headless
+
+# 炎の神殿
+python3 tools/authored.py verify --fire-mountain --headless
+```
+
+### 3. ビルド済みアプリの起動 (Prebuilt Releases)
 GitHub Releases（または同梱スクリプト）から配布されるパッケージを利用する場合：
 - [Play Ocarina of Time.command](<Play Ocarina of Time.command>) を実行し、`Begin journey` を選びます。
 - 保存先は `runtime/authored-save.json`。`Continue saved journey` で再開します。
 - command経由では同じ保存先の二重起動を防ぎます。旧移植版の保存先とは別です。app単体を別の場所へコピーした場合は、その隣の `Ocarina Saves/authored-save.json` に保存します。
 
-0.5にはジャブジャブ様の体内、時の神殿と大人への目覚め、墓地とHookshot、迷いの森と森の神殿、森のメダルと時間往復、七年後のゴロンシティ、火口、炎の神殿の最初の三つの牢までを収録しました。鉄格子は衝突を保って上昇し、停止・再開に追従します。外部入力の範囲は [アセットの出典](production/authored/THIRD_PARTY_ASSETS.md) を参照してください。
+---
 
 ## 現在の冒険
 
